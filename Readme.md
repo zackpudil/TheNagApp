@@ -59,6 +59,11 @@ Or download the Expo Go app on your phone.
 
 Update `app/utils/common.js` with ngrok tunnel url from Service setup.
 
+Login in with account to Expo.
+```
+npx expo login
+```
+
 Start app bundler
 ```
 npx expo start
