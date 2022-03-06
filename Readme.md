@@ -29,6 +29,11 @@ Use docker compose to start 2 containers, the first one is the api and the secon
 docker-compose up
 ```
 
+Use ngrok to create a tunnel
+```
+ngrok http 3000
+```
+save the tunnel url.
 ## App
 
 ### Prerequisites
@@ -52,7 +57,7 @@ yarn install
 Create an Android AVD in Android AVD Manager (see here: https://developer.android.com/studio/run/managing-avds)
 Or download the Expo Go app on your phone.
 
-Update `app/utils/common.js` with ngrok url from Service setup.
+Update `app/utils/common.js` with ngrok tunnel url from Service setup.
 
 Start app bundler
 ```
