@@ -1,0 +1,15 @@
+service/node_modules/
+app/node_modules/
+app/.expo/
+app/npm-debug.*
+app/*.jks
+app/*.p8
+app/*.p12
+app/*.key
+app/*.mobileprovision
+app/*.orig.*
+app/web-build/
+app/.vscode
+app/.DS_Store
+.DS_Store
+.vscode

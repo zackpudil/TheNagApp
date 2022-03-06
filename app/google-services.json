@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "893028747192",
+    "project_id": "thenagapp-6f1f9",
+    "storage_bucket": "thenagapp-6f1f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893028747192:android:6161586fab6979b2e6f14d",
+        "android_client_info": {
+          "package_name": "com.zackpudil.TheNagApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893028747192-lsedb8i2qt6t9in1tkjl2pmopg3sjefp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvXlw_Dl0LnI_fD3-mmn3tOhfqPZlvSro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893028747192-lsedb8i2qt6t9in1tkjl2pmopg3sjefp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
