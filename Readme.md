@@ -61,6 +61,6 @@ Update `app/utils/common.js` with ngrok tunnel url from Service setup.
 
 Start app bundler
 ```
-npx expo start --tunnel
+npx expo start
 ```
 use `?` while in shell to learn how to get the app on your emulator or phone.
