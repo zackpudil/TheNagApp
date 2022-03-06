@@ -10,9 +10,10 @@
 
 1. [NodeJS](https://nodejs.org/en/download/)
 2. [Npx](https://www.npmjs.com/package/npx)
-3. [Docker Desktop](https://www.docker.com/products/docker-desktop)
-4. [Docker Compose](https://docs.docker.com/compose/install/)
-5. [Ngrok](https://ngrok.com/download)
+3. [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install)
+4. [Docker Desktop](https://www.docker.com/products/docker-desktop)
+5. [Docker Compose](https://docs.docker.com/compose/install/)
+6. [Ngrok](https://ngrok.com/download)
 
 ### Setup
 
