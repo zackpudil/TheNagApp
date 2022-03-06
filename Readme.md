@@ -30,11 +30,25 @@ Use docker compose to start 2 containers, the first one is the api and the secon
 docker-compose up
 ```
 
+In another terminal check the name of the api image
+```
+docker images
+```
+Should be something like `service_nagapp`
+
 Use ngrok to create a tunnel
 ```
 ngrok http 3000
 ```
 save the tunnel url.
+
+To see your changes to the service run the following:
+```
+docker-compose down
+docker rmi service_nagapp
+docker-compose up
+```
+
 ## App
 
 ### Prerequisites
@@ -70,3 +84,5 @@ Start app bundler
 npx expo start
 ```
 use `?` while in shell to learn how to get the app on your emulator or phone.
+
+Changes to anything in `app` should automatically update to phone/emulator.
