@@ -21,8 +21,8 @@ MongoClient.connect('mongodb://mongo:27017/nagapp', async (err, client) => {
   userController(app);
   nagsController(app);
   choresController(app);
-	  	
-	app.listen(3000, () => {
-		console.log('listening on 3000');
-	});
+
+  app.listen(3000, () => {
+    console.log('listening on 3000');
+  });
 });

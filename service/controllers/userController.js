@@ -16,11 +16,11 @@ const userController = (app) => {
   });
 
   app.get('/user/:deviceToken', async (req, res) => {
-		const { deviceToken } = req.params;
-		const user = await Db.users().findOne({ deviceToken });
-		console.log(`GOT user from token ${deviceToken} ${user}`);
-		res.send(user || false);
-	});
+    const { deviceToken } = req.params;
+    const user = await Db.users().findOne({ deviceToken });
+    console.log(`GOT user from token ${deviceToken} ${user}`);
+    res.send(user || false);
+  });
 
 	app.post('/user', async (req, res) => {
     const newUser = req.body;
