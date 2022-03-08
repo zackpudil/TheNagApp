@@ -22,7 +22,7 @@ const userController = (app) => {
     res.send(user || false);
   });
 
-	app.post('/user', async (req, res) => {
+  app.post('/user', async (req, res) => {
     const newUser = req.body;
     console.log(`Creating user ${req.body.name} with token ${req.body.deviceToken}`);
     await Db.users().insertOne(req.body);
@@ -31,8 +31,8 @@ const userController = (app) => {
       await notifyAllNaggers(`Lil bitch ${newUser.name} needs approval`);
     }
 
-		res.send(newUser);
-	});
+    res.send(newUser);
+  });
 
   app.put('/user/:deviceToken', async (req, res) => {
     const deviceToken = req.params.deviceToken;
